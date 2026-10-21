@@ -46,7 +46,7 @@
 
 ---
 
-## 🛠️ No que venho trabalhando
+## 🛠️ Projetos que venho trabalhando
 
 - ☁️ **Yggdra Tech:** empreendendo em TI, com foco em suporte técnico, otimização de hardware e performance.
 - 🎓 **Projetos acadêmicos:** sistemas web e gestão de banco de dados (**LabTech**).

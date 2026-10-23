@@ -76,7 +76,7 @@
   <a href="https://www.instagram.com/_jhean_carllos_/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
-  <a href="[https://discord.gg/KaRzA2Qnf](https://discord.gg/MbeDfXKBp9)" target="_blank">
+  <a href="https://discord.gg/MbeDfXKBp9" target="_blank">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
   </a>
 </p>

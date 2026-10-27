@@ -16,9 +16,9 @@
 
 ## 👋 Sobre mim
 
-🇧🇷 **São Luís de Montes Belos, Goiás**
-🎓 Estudante de **Engenharia de Software**
-🚀 Aprendendo sozinho, na prática | Desenvolvedor Full-Stack em formação.
+🇧🇷 **São Luís de Montes Belos, Goiás**  
+🎓 Estudante de **Engenharia de Software**  
+🚀 Aprendendo sozinho, na prática | Desenvolvedor Full-Stack em formação.  
 🧠 Focado em evolução e em transformar café (e tereré 🧉) em código de qualidade.
 
 ---
@@ -29,6 +29,9 @@
   <tr>
     <td align="center" width="50%">
       <h3>🌐 Yggdra Tech</h3>
+      <a href="https://yggdratech.netlify.app/" target="_blank">
+        <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/assets/yggdra-logo.png" alt="Logo Yggdra Tech" width="180px" style="border-radius: 50%; margin: 10px 0;"/>
+      </a>
       <p>Site institucional da Yggdra, com foco em serviços de TI, suporte técnico e performance.</p>
       <a href="https://yggdratech.netlify.app/" target="_blank">
         <img src="https://img.shields.io/badge/Ver%20site-007FFF?style=for-the-badge&logo=netlify&logoColor=white"/>
@@ -36,6 +39,9 @@
     </td>
     <td align="center" width="50%">
       <h3>🪽 Furinho Feliz</h3>
+      <a href="https://furinhofeliz.netlify.app/" target="_blank">
+        <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/assets/furinho-logo.png" alt="Logo Furinho Feliz" width="180px" style="border-radius: 50%; margin: 10px 0;"/>
+      </a>
       <p>Site de agendamento para body piercer, com cadastro de clientes e identidade visual própria.</p>
       <a href="https://furinhofeliz.netlify.app/" target="_blank">
         <img src="https://img.shields.io/badge/Ver%20site-007FFF?style=for-the-badge&logo=netlify&logoColor=white"/>

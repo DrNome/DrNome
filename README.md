@@ -17,7 +17,8 @@
 ## 👋 Sobre mim
 
 🇧🇷 **São Luís de Montes Belos, Goiás**  
-🎓 Estudante de **Engenharia de Software**  
+
+🎓 Estudante de **Engenharia de Software.**  
 🚀 Aprendendo sozinho, na prática | Desenvolvedor Full-Stack em formação.  
 🧠 Focado em evolução e em transformar café (e tereré 🧉) em código de qualidade.
 

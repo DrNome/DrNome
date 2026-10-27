@@ -30,7 +30,7 @@
     <td align="center" width="50%">
       <h3>🌐 Yggdra Tech</h3>
       <a href="https://yggdratech.netlify.app/" target="_blank">
-        <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/assets/yggdra-logo.png" alt="Logo Yggdra Tech" width="180px" style="border-radius: 50%; margin: 10px 0;"/>
+        <img src="./YggdraTech.png" alt="Logotipo da Yggdra Tech" width="160px" style="border-radius: 50%; margin: 10px 0;"/>
       </a>
       <p>Site institucional da Yggdra, com foco em serviços de TI, suporte técnico e performance.</p>
       <a href="https://yggdratech.netlify.app/" target="_blank">
@@ -40,16 +40,15 @@
     <td align="center" width="50%">
       <h3>🪽 Furinho Feliz</h3>
       <a href="https://furinhofeliz.netlify.app/" target="_blank">
-        <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/assets/furinho-logo.png" alt="Logo Furinho Feliz" width="180px" style="border-radius: 50%; margin: 10px 0;"/>
+        <img src="./Furinho-Feliz.jpeg" alt="Logo Furinho Feliz" width="160px" style="border-radius: 50%; margin: 10px 0;"/>
       </a>
-      <p>Site de agendamento para body piercer, com cadastro de clientes e identidade visual própria.</p>
+      <p>Site de agendamento para piercing corporal, com cadastro de clientes e identidade visual própria.</p>
       <a href="https://furinhofeliz.netlify.app/" target="_blank">
         <img src="https://img.shields.io/badge/Ver%20site-007FFF?style=for-the-badge&logo=netlify&logoColor=white"/>
       </a>
     </td>
   </tr>
 </table>
-
 ---
 
 ## 🛠️ Projetos que venho trabalhando

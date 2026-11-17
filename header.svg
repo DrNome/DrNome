@@ -26,30 +26,39 @@
         fill: #8b949e;
         text-anchor: middle;
       }
-      .rotating-text {
+      
+      /* Estilo base do CMD */
+      .cmd-text {
         font-family: 'Fira Code', 'Courier New', Courier, monospace;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
         fill: #00FF41;
-        text-anchor: middle;
+        white-space: nowrap;
+        overflow: hidden;
         opacity: 0;
-        animation: cycle 20s infinite;
-      }
-      /* Intervalo de 4 segundos para cada uma das 5 frases */
-      .t1 { animation-delay: 0s; }
-      .t2 { animation-delay: 4s; }
-      .t3 { animation-delay: 8s; }
-      .t4 { animation-delay: 12s; }
-      .t5 { animation-delay: 16s; }
-
-      @keyframes cycle {
-        0% { opacity: 0; transform: translateY(6px); }
-        3% { opacity: 1; transform: translateY(0); }
-        17% { opacity: 1; transform: translateY(0); }
-        20% { opacity: 0; transform: translateY(-6px); }
-        100% { opacity: 0; }
+        animation: cycleText 20s infinite;
       }
 
+      /* Tempos de cada frase no ciclo total de 20s */
+      .s1 { animation-delay: 0s; }
+      .s2 { animation-delay: 4s; }
+      .s3 { animation-delay: 8s; }
+      .s4 { animation-delay: 12s; }
+      .s5 { animation-delay: 16s; }
+
+      @keyframes cycleText {
+        0% { opacity: 0; width: 0; }
+        1% { opacity: 1; }
+        /* Digita o texto ao longo de 2.2 segundos */
+        12% { opacity: 1; width: 380px; } 
+        /* Mantém visível na tela */
+        17% { opacity: 1; width: 380px; } 
+        /* Apaga instantaneamente para a próxima */
+        17.1% { opacity: 0; width: 0; }
+        100% { opacity: 0; width: 0; }
+      }
+
+      /* Chuva Matrix */
       @keyframes fall {
         0% { transform: translateY(-250px); opacity: 0; }
         15% { opacity: 0.4; }
@@ -68,7 +77,7 @@
   <!-- Fundo escuro -->
   <rect width="900" height="250" rx="10" class="bg" />
 
-  <!-- Chuva Matrix no fundo -->
+  <!-- Chuva de números no fundo -->
   <text x="35" y="0" class="rain c1">1011001010110</text>
   <text x="95" y="0" class="rain c3">0100111010011</text>
   <text x="155" y="0" class="rain c2">1101010011010</text>
@@ -85,17 +94,19 @@
   <text x="815" y="0" class="rain c3">0010110100110</text>
   <text x="865" y="0" class="rain c5">1001101011010</text>
 
-  <!-- Caixa translúcida para garantir leitura nítida por cima da chuva -->
-  <rect x="130" y="42" width="640" height="166" rx="10" fill="#0d1117" opacity="0.82" />
+  <!-- Caixa de leitura escura -->
+  <rect x="200" y="145" width="500" height="42" rx="6" fill="#0d1117" opacity="0.85" />
 
   <!-- Título e subtítulo fixos -->
   <text x="450" y="95" class="title">Hello, world! 🫡</text>
   <text x="450" y="125" class="subtitle">Jhean Carllos | Software Engineering Student</text>
 
-  <!-- Frases passando em verde por cima da chuva -->
-  <text x="450" y="175" class="rotating-text t1">> Software Engineering Student_</text>
-  <text x="450" y="175" class="rotating-text t2">> Yggdra Tech Founder | IT Services_</text>
-  <text x="450" y="175" class="rotating-text t3">> Node.js, Java & SQL Enthusiast_</text>
-  <text x="450" y="175" class="rotating-text t4">> One Piece Fan & Tereré Lover_</text>
-  <text x="450" y="175" class="rotating-text t5">> Building the future in Goiás_</text>
+  <!-- Textos com efeito de digitação CMD -->
+  <g transform="translate(260, 173)">
+    <text x="0" y="0" class="cmd-text s1">> Software Engineering Student_</text>
+    <text x="0" y="0" class="cmd-text s2">> Yggdra Tech Founder | IT Services_</text>
+    <text x="0" y="0" class="cmd-text s3">> Node.js, Java & SQL Enthusiast_</text>
+    <text x="0" y="0" class="cmd-text s4">> One Piece Fan & Tereré Lover_</text>
+    <text x="0" y="0" class="cmd-text s5">> Building the future in Goiás_</text>
+  </g>
 </svg>

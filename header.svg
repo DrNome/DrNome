@@ -27,38 +27,52 @@
         text-anchor: middle;
       }
       
-      /* Estilo base do CMD */
-      .cmd-text {
+      /* Container base do efeito de digitação */
+      .typing-container {
         font-family: 'Fira Code', 'Courier New', Courier, monospace;
         font-size: 18px;
         font-weight: bold;
         fill: #00FF41;
-        white-space: nowrap;
-        overflow: hidden;
+      }
+
+      .line {
         opacity: 0;
-        animation: cycleText 20s infinite;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: cycleLine 20s infinite;
       }
 
-      /* Tempos de cada frase no ciclo total de 20s */
-      .s1 { animation-delay: 0s; }
-      .s2 { animation-delay: 4s; }
-      .s3 { animation-delay: 8s; }
-      .s4 { animation-delay: 12s; }
-      .s5 { animation-delay: 16s; }
+      /* Tempos de cada frase no ciclo de 20s (4s para cada uma) */
+      .l1 { animation-delay: 0s; }
+      .l2 { animation-delay: 4s; }
+      .l3 { animation-delay: 8s; }
+      .l4 { animation-delay: 12s; }
+      .l5 { animation-delay: 16s; }
 
-      @keyframes cycleText {
-        0% { opacity: 0; width: 0; }
-        1% { opacity: 1; }
-        /* Digita o texto ao longo de 2.2 segundos */
-        12% { opacity: 1; width: 380px; } 
-        /* Mantém visível na tela */
-        17% { opacity: 1; width: 380px; } 
-        /* Apaga instantaneamente para a próxima */
-        17.1% { opacity: 0; width: 0; }
-        100% { opacity: 0; width: 0; }
+      @keyframes cycleLine {
+        0% { opacity: 1; width: 0ch; }
+        /* Digita o texto ao longo do tempo proporcional ao tamanho */
+        12% { opacity: 1; width: 34ch; } 
+        /* Mantém visível na tela até apagar */
+        17% { opacity: 1; width: 34ch; } 
+        17.1% { opacity: 0; width: 0ch; }
+        100% { opacity: 0; width: 0ch; }
       }
 
-      /* Chuva Matrix */
+      /* Cursor piscando */
+      .cursor {
+        font-family: 'Fira Code', monospace;
+        font-size: 18px;
+        font-weight: bold;
+        fill: #00FF41;
+        animation: blink 0.8s infinite;
+      }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
       @keyframes fall {
         0% { transform: translateY(-250px); opacity: 0; }
         15% { opacity: 0.4; }
@@ -77,7 +91,7 @@
   <!-- Fundo escuro -->
   <rect width="900" height="250" rx="10" class="bg" />
 
-  <!-- Chuva de números no fundo -->
+  <!-- Chuva Matrix no fundo -->
   <text x="35" y="0" class="rain c1">1011001010110</text>
   <text x="95" y="0" class="rain c3">0100111010011</text>
   <text x="155" y="0" class="rain c2">1101010011010</text>
@@ -94,19 +108,19 @@
   <text x="815" y="0" class="rain c3">0010110100110</text>
   <text x="865" y="0" class="rain c5">1001101011010</text>
 
-  <!-- Caixa de leitura escura -->
-  <rect x="200" y="145" width="500" height="42" rx="6" fill="#0d1117" opacity="0.85" />
+  <!-- Caixa translúcida para leitura nítida -->
+  <rect x="130" y="42" width="640" height="166" rx="10" fill="#0d1117" opacity="0.82" />
 
   <!-- Título e subtítulo fixos -->
   <text x="450" y="95" class="title">Hello, world! 🫡</text>
   <text x="450" y="125" class="subtitle">Jhean Carllos | Software Engineering Student</text>
 
-  <!-- Textos com efeito de digitação CMD -->
-  <g transform="translate(260, 173)">
-    <text x="0" y="0" class="cmd-text s1">> Software Engineering Student_</text>
-    <text x="0" y="0" class="cmd-text s2">> Yggdra Tech Founder | IT Services_</text>
-    <text x="0" y="0" class="cmd-text s3">> Node.js, Java & SQL Enthusiast_</text>
-    <text x="0" y="0" class="cmd-text s4">> One Piece Fan & Tereré Lover_</text>
-    <text x="0" y="0" class="cmd-text s5">> Building the future in Goiás_</text>
+  <!-- Frases com efeito de digitação CMD letra por letra -->
+  <g transform="translate(230, 173)" class="typing-container">
+    <text x="0" y="0" class="line l1">> Software Engineering Student</text>
+    <text x="0" y="0" class="line l2">> Yggdra Tech Founder | IT Services</text>
+    <text x="0" y="0" class="line l3">> Node.js, Java & SQL Enthusiast</text>
+    <text x="0" y="0" class="line l4">> One Piece Fan & Tereré Lover</text>
+    <text x="0" y="0" class="line l5">> Building the future in Goiás</text>
   </g>
 </svg>

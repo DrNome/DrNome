@@ -1,10 +1,15 @@
 <p align="center">
   <img src="./header.svg" width="100%" alt="Header Matrix"/>
 </p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Goi%C3%A1s-Brasil-009C3B?style=for-the-badge&logo=googlemaps&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Full--Stack-em%20forma%C3%A7%C3%A3o-007FFF?style=for-the-badge&logo=codesandbox&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Yggdra-Tech-0A2540?style=for-the-badge&logo=icloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Full--Stack-em%20forma%C3%A7%C3%A3o-008F11?style=for-the-badge&logo=codesandbox&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Yggdra-Tech-0D0208?style=for-the-badge&logo=icloud&logoColor=00FF41"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=00FF41&size=22&center=true&vCenter=true&width=600&lines=Software+Engineering+Student;Yggdra+Tech+Founder+%7C+IT+Services;Node.js%2C+Java+%26+SQL+Enthusiast;One+Piece+Fan+%26+Terer%C3%A9+Lover;Building+the+future+in+Goi%C3%A1s" />
 </p>
 
 ---
@@ -79,11 +84,9 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
   <a href="https://discord.gg/MbeDfXKBp9" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logo"/>
   </a>
 </p>
-
-<p align="center"><i>"O sucesso é a soma de pequenos esforços repetidos dia após dia."</i></p>
 
 <p align="center">
   <img src="./footer.svg" width="100%" alt="Footer Matrix"/>
